@@ -113,6 +113,14 @@ class FunctionDeclaration extends EventBase {
     }
 }
 
+class FileWrapperElement  extends EventBase {
+    functions = [];
+    constructor(target)
+    {
+        super(target);
+    }
+}
+
 class WrapperElement extends EventBase {
     events = [];
     constructor(target)

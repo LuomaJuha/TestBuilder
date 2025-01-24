@@ -19,8 +19,6 @@ let isCapturing = false;
 
 let isMenuOpen = false;
 
-
-
 let optionDialog;
 
 function setInnerHtml(element, content)
@@ -29,8 +27,6 @@ function setInnerHtml(element, content)
     tempDiv.innerHTML = content;
     element.replaceChildren(...tempDiv.childNodes);
 }
-
-
 
 const helpText = `<p>Addon for recording tests running! [F1] Open settings [F2] Show results [F3] Start/Stop recording events [F4] Open add event menu</p><div class="js-record-state"></div>`;
 
