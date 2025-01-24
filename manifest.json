@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Mink-Builder",
+    "version": "1.0",
+  
+    "description": "Create mink tests in very easy manner",
+  
+    "icons": {
+      "48": "icons/border-48.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": [""],
+        "js": ["classes.js", "recorder.js"]
+      }
+    ]
+  }
+  
